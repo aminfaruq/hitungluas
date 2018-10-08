@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtJudul"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="#255d63"
+        android:text="masukkan username" />
+
+    <EditText
+        android:hint="Nama"
+        android:id="@+id/edtText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menghitung_luas_persegi_panjang"/>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edtPanjang"
+        android:layout_marginTop="10dp"
+        android:hint="Masukkan panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edtLebar"
+        android:hint="Masukkan lebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hitung"/>
+
+    <TextView
+        android:id="@+id/txtHasil"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:text="Hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
